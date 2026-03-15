@@ -1,0 +1,153 @@
+
+
+.limitar-secao {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.topo {
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 1px solid #302136;
+	text-align: center;
+	color: #fff;
+	background-color: #040206;
+}
+
+.topo a {
+	margin: 0 35px;
+	color: #fff;
+	font-size: 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.banner {
+	height: calc(100vh - 74px);
+	background-image: url("https://www.devmedia.com.br/arquivos/cursos/css_modf_elements/embed/aula-8/img/capa.jpg");
+	background-position: top center;
+	background-size: cover;
+}
+
+.secao-sinopse,
+.secao-canais,
+.secao-temporadas,
+.secao-imagens {
+	padding: 50px 20px;
+}
+
+.secao-canais,
+.secao-imagens {
+	background-color: #302136;
+	color: #fff;
+}
+
+.secao-sinopse h1 {
+	text-align: center;
+	font-size: 36px;
+}
+
+.secao-sinopse h2 {
+	text-align: center;
+	margin: 30px 0 50px;
+	font-size: 28px;
+}
+
+.secao-canais h2,
+.secao-imagens h2,
+.secao-temporadas h2 {
+	text-align: center;
+	margin: 0px 0 50px;
+	font-size: 28px;
+}
+
+
+.limitar-secao p {
+	font-size: 20px;
+	line-height: 40px;
+	margin: 12px 0;
+}
+
+.img-plataformas {
+	display: block;
+	width: 80%;
+	margin: 0 auto 50px;
+	border: 1px solid #fff;
+	box-shadow: 0px 0px 10px 3px #fff;
+}
+
+.conteudo_temporada {
+	min-height: 160px;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 40px;
+	background: #f0f0f0;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 3px #cac4c4;
+}
+
+.conteudo_temporada h3 {
+	text-align: left;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+.conteudo_temporada p {
+	text-align: left;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.galeria {
+	margin: 0 auto 20px;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+.galeria img {
+	width: 320px;
+	min-height: 220px;
+	margin: 25px 20px;
+	box-shadow: 0px 0px 10px 3px #fff;
+}
+
+.secao-imagens span {
+	font-size: 20px;
+}
+
+.secao-imagens span a {
+	color: blue;
+}
+
+.rodape {
+	width: 100%;
+	padding: 40px 0;
+	font-size: 16px;
+	text-align: center;
+	background: #302036;
+	color: #fff;
+	box-shadow: 0px 10px 20px 5px #fff;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #f4f4f4;
+}
+
+::-webkit-scrollbar-track:hover {
+	background-color: #b8c0c2;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #888888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #555555;
+}
